@@ -44,9 +44,15 @@ body .body {
       font-weight: 700;
 
       .icons {
+        display: inline-block;
+        vertical-align: bottom;
         width: 20px;
         margin-right: 10px;
       }
+    }
+
+    th {
+      text-align: center;
     }
 
     .menu-divider {
