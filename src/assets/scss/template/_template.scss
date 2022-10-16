@@ -262,6 +262,10 @@ body .body {
   background-color: #222d37;
   color: white;
 
+  &>tbody>tr {
+    vertical-align: middle !important;
+  }
+
   &>tbody>tr>th {
     padding-top: 25px !important;
     padding-bottom: 30px !important;
@@ -287,11 +291,13 @@ body .body {
   .call-to-action {
     display: block;
     font-size: 14px;
+    hyphens: none;
   }
 
   .info {
     display: block;
     font-size: 12px;
+    hyphens: none;
   }
 
   .store-logos {
@@ -337,6 +343,43 @@ body .body {
   }
 }
 
+.footer-menu {
+  background: #14191e;
+  background-color: #14191e;
+  border-bottom: 1px solid #2d3e4a;
+  border-top: 1px solid #2d3e4a;
+
+  .columns {
+    padding-bottom: 5px;
+    padding-right: 5px !important;
+    padding-left: 5px !important;
+    padding-top: 5px;
+
+    a {
+      color: white;
+      font-size: 16px;
+      font-weight: 700;
+
+      .icons {
+        display: inline-block;
+        vertical-align: bottom;
+        width: 20px;
+        margin-right: 10px;
+      }
+    }
+
+    th {
+      text-align: center;
+    }
+
+    .menu-divider {
+      display: block;
+      height: 20px;
+      width: 1px;
+      background: #2d3e4a;
+    }
+  }
+}
 
 .valign-mid {
   vertical-align: middle;
