@@ -459,16 +459,14 @@ body .body {
   vertical-align: bottom
 }
 
-.footer {
-  background: black;
-  background-color: black;
-  color: #ffffff;
+@media all {
 
-  .footer-container {
-    background-color: black;
+  // typography
+  a:hover {
+    color: $primary-color !important
   }
 
-  a {
-    color: red;
+  .sub-header a:hover {
+    color: #ffffff !important
   }
 }
