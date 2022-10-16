@@ -2,6 +2,7 @@ html,
 body .body {
   background: #e4e5ea;
   background-color: #e4e5ea;
+  padding-bottom: 300px;
 }
 
 .header {
@@ -256,6 +257,56 @@ body .body {
   }
 }
 
+.footer-top {
+  background: #222d37;
+  background-color: #222d37;
+  color: white;
+
+  &>tbody>tr>th {
+    padding-top: 25px !important;
+    padding-bottom: 30px !important;
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+  }
+
+  th {
+    padding-bottom: 0px;
+    padding-top: 0px;
+  }
+
+  .circle-logo {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .info-section>table>tbody>tr>th {
+    padding-left: 10px;
+    color: white;
+  }
+
+  .call-to-action {
+    display: block;
+    font-size: 14px;
+  }
+
+  .info {
+    display: block;
+    font-size: 12px;
+  }
+
+  .store-logos {
+    img {
+      height: 40px;
+      width: 120px;
+      display: block;
+      margin: 0 auto;
+    }
+
+    &.store-logos>table>tbody>tr>th>table>tbody>tr>th {
+      padding-bottom: 5px;
+    }
+  }
+}
 
 
 .valign-mid {
