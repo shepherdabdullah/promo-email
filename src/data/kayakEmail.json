@@ -7,7 +7,7 @@
         "tinyInfo": "Gate 1 Travel",
         "price": "749",
         "link": "#",
-        "image": "/assets/img/kayak_files/ireland.png" 
+        "image": "https://i.ibb.co/ckRDPGh/ireland.png" 
     },
     "offers": [
         {
@@ -17,7 +17,7 @@
         "tinyInfo": "CheapCaribbean.com",
         "price": "689",
         "link": "#",
-        "image": "/assets/img/kayak_files/cancun.png"
+        "image": "https://i.ibb.co/jvDVNFW/cancun.png"
     },
     {
         "location": "China",
@@ -26,7 +26,7 @@
         "tinyInfo": "AirChina.com",
         "price": "1450",
         "link": "#",
-        "image": "/assets/img/kayak_files/china.jpg"
+        "image": "https://i.ibb.co/cgpYvjN/china.jpg"
     },
     {
         "location": "London",
@@ -35,7 +35,7 @@
         "tinyInfo": "BritishAirways.com",
         "price": "1200",
         "link": "#",
-        "image": "/assets/img/kayak_files/london.png"
+        "image": "https://i.ibb.co/HzjLNNp/london.png"
     }
     ]
 }
